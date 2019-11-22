@@ -1,6 +1,3 @@
-import javax.security.auth.login.AccountException;
-import java.io.OptionalDataException;
-
 public class BinarySearch
 {
     public static void main(String[] args){

@@ -1,16 +1,23 @@
+import java.util.Scanner;
+
 public class BinarySearch
 {
     public static void main(String[] args){
 
-        // create an array
         int[] array = new int[1000];
 
+        // fill the array with 1000 numbers
         for (int i = 0; i < array.length; i++){
             array[i] = i;
         }
 
-        // find the number 567 in that 1000 numbers
-        System.out.println(binarySearch(array, 567));
+        System.out.println("Pls enter a number that is between 1 and 1000: ");
+
+        // take in user input
+        Scanner input = new Scanner(System.in);
+        int userInput = input.nextInt();
+
+        System.out.println(binarySearch(array, userInput ));
 
     }
 

@@ -18,7 +18,6 @@ public class BinarySearch
         int userInput = input.nextInt();
 
         System.out.println(binarySearch(array, userInput ));
-
     }
 
     public static String binarySearch(int[] array, int num){

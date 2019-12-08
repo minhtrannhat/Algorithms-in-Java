@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+// note on the performance of this program
+//  it's time complexity is O(log(n))
+//  each time we make a recursive call we halve the value of n;
+//  hence, we make log n recursive calls. \
+//  That is, this method runs in O(log n) time.
+
+
 public class RecursivePower {
     public static void main(String[] args){
         // take in user's input

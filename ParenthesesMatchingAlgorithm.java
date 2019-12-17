@@ -46,6 +46,6 @@ public class ParenthesesMatchingAlgorithm {
             }
         }
 
-    return stack.isEmpty();
+        return stack.isEmpty();
     }
 }

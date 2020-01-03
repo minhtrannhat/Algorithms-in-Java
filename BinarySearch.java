@@ -25,7 +25,7 @@ public class BinarySearch
         // initialize the variable
         int low = 0;
         int high = array.length - 1;
-        int count = 0;
+        int count = 1;
 
         while (low <= high){
             int pivot = (low + high) / 2;

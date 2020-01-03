@@ -35,7 +35,7 @@ public class BinarySearch
             }
 
             else if (pivot == num){
-                return "The number " + num + " is in the array. And it took " + count + " examinations from the binary search algorithm";
+                return "The number " + num + " is in the array. And it took " + count + " examination(s) from the binary search algorithm";
             }
 
             else {

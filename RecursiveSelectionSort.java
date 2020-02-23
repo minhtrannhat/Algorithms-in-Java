@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-import java.io.*;
 import java.util.*;
 
 public class RecursiveSelectionSort {

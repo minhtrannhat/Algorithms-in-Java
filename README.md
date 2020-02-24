@@ -9,3 +9,4 @@ The list of algorithms that I have learned:
 	* Binary Recursion
 * Binary Search
 * Selection Sort
+* A parentheses matching algorithm using the Stack data structure
